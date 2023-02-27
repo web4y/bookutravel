@@ -1,0 +1,82 @@
+[29-Nov-2022 23:40:28 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/artrcfaw/BookUTravel.com/login.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/artrcfaw/BookUTravel.com/login.php on line 5
+[30-Nov-2022 00:00:07 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/artrcfaw/BookUTravel.com/connect.php:10
+Stack trace:
+#0 /home/artrcfaw/BookUTravel.com/Install.php(3): require_once()
+#1 {main}
+  thrown in /home/artrcfaw/BookUTravel.com/connect.php on line 10
+[30-Nov-2022 00:08:27 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/artrcfaw/BookUTravel.com/connect.php:10
+Stack trace:
+#0 /home/artrcfaw/BookUTravel.com/Install.php(3): require_once()
+#1 {main}
+  thrown in /home/artrcfaw/BookUTravel.com/connect.php on line 10
+[30-Nov-2022 00:08:29 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/artrcfaw/BookUTravel.com/connect.php:10
+Stack trace:
+#0 /home/artrcfaw/BookUTravel.com/Install.php(3): require_once()
+#1 {main}
+  thrown in /home/artrcfaw/BookUTravel.com/connect.php on line 10
+[30-Nov-2022 00:08:31 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/artrcfaw/BookUTravel.com/connect.php:10
+Stack trace:
+#0 /home/artrcfaw/BookUTravel.com/Install.php(3): require_once()
+#1 {main}
+  thrown in /home/artrcfaw/BookUTravel.com/connect.php on line 10
+[30-Nov-2022 00:12:35 Europe/Sofia] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/register.php on line 4
+[30-Nov-2022 00:12:35 Europe/Sofia] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/register.php on line 20
+[30-Nov-2022 00:12:35 Europe/Sofia] PHP Warning:  Use of undefined constant firstname - assumed 'firstname' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/register.php on line 23
+[30-Nov-2022 00:12:35 Europe/Sofia] PHP Warning:  Use of undefined constant lastname - assumed 'lastname' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/register.php on line 26
+[30-Nov-2022 00:12:35 Europe/Sofia] PHP Warning:  Use of undefined constant password - assumed 'password' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/register.php on line 29
+[30-Nov-2022 00:15:52 Europe/Sofia] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/register.php on line 4
+[30-Nov-2022 00:15:52 Europe/Sofia] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/register.php on line 20
+[30-Nov-2022 00:15:52 Europe/Sofia] PHP Warning:  Use of undefined constant firstname - assumed 'firstname' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/register.php on line 23
+[30-Nov-2022 00:15:52 Europe/Sofia] PHP Warning:  Use of undefined constant lastname - assumed 'lastname' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/register.php on line 26
+[30-Nov-2022 00:15:52 Europe/Sofia] PHP Warning:  Use of undefined constant password - assumed 'password' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/register.php on line 29
+[30-Nov-2022 00:20:01 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/artrcfaw/BookUTravel.com/members.php on line 7
+[30-Nov-2022 11:35:46 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/login.php:297) in /home/artrcfaw/BookUTravel.com/login.php on line 419
+[30-Nov-2022 11:35:46 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/login.php:297) in /home/artrcfaw/BookUTravel.com/login.php on line 421
+[30-Nov-2022 11:35:46 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/login.php:297) in /home/artrcfaw/BookUTravel.com/login.php on line 427
+[05-Dec-2022 18:32:10 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/login.php:297) in /home/artrcfaw/BookUTravel.com/login.php on line 419
+[05-Dec-2022 18:32:10 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/login.php:297) in /home/artrcfaw/BookUTravel.com/login.php on line 421
+[05-Dec-2022 18:32:10 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/login.php:297) in /home/artrcfaw/BookUTravel.com/login.php on line 427
+[05-Dec-2022 23:59:01 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/members.php:297) in /home/artrcfaw/BookUTravel.com/members.php on line 361
+[05-Dec-2022 23:59:01 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/members.php:297) in /home/artrcfaw/BookUTravel.com/members.php on line 361
+[06-Dec-2022 00:01:19 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/members.php:297) in /home/artrcfaw/BookUTravel.com/members.php on line 361
+[06-Dec-2022 00:01:19 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/members.php:297) in /home/artrcfaw/BookUTravel.com/members.php on line 361
+[06-Dec-2022 00:01:21 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/members.php:297) in /home/artrcfaw/BookUTravel.com/members.php on line 361
+[06-Dec-2022 00:01:21 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/members.php:297) in /home/artrcfaw/BookUTravel.com/members.php on line 361
+[15-Dec-2022 10:01:39 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/login.php:17) in /home/artrcfaw/BookUTravel.com/login.php on line 24
+[15-Dec-2022 10:02:57 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/login.php:17) in /home/artrcfaw/BookUTravel.com/login.php on line 24
+[15-Dec-2022 10:05:24 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/login.php:17) in /home/artrcfaw/BookUTravel.com/login.php on line 24
+[17-Dec-2022 15:10:40 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/artrcfaw/BookUTravel.com/login.php on line 10
+[17-Dec-2022 15:16:12 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/artrcfaw/BookUTravel.com/login.php on line 4
+[17-Dec-2022 15:17:20 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/artrcfaw/BookUTravel.com/login.php on line 4
+[17-Dec-2022 15:17:20 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/login.php:1) in /home/artrcfaw/BookUTravel.com/login.php on line 26
+[17-Dec-2022 15:20:19 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/artrcfaw/BookUTravel.com/login.php on line 9
+[17-Dec-2022 15:27:37 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/artrcfaw/BookUTravel.com/login.php on line 9
+[17-Dec-2022 15:28:09 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/artrcfaw/BookUTravel.com/login.php on line 9
+[17-Dec-2022 15:28:09 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/login.php:1) in /home/artrcfaw/BookUTravel.com/login.php on line 31
+[17-Dec-2022 15:31:13 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/artrcfaw/BookUTravel.com/members.php on line 596
+[17-Dec-2022 15:31:13 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/members.php:1) in /home/artrcfaw/BookUTravel.com/members.php on line 599
+[17-Dec-2022 15:31:13 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/artrcfaw/BookUTravel.com/members.php on line 596
+[17-Dec-2022 15:31:13 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/members.php:1) in /home/artrcfaw/BookUTravel.com/members.php on line 599
+[17-Dec-2022 15:32:21 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/artrcfaw/BookUTravel.com/members.php on line 588
+[17-Dec-2022 15:32:21 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/members.php:1) in /home/artrcfaw/BookUTravel.com/members.php on line 591
+[17-Dec-2022 15:32:22 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/artrcfaw/BookUTravel.com/members.php on line 588
+[17-Dec-2022 15:32:22 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/members.php:1) in /home/artrcfaw/BookUTravel.com/members.php on line 591
+[17-Dec-2022 20:32:57 Europe/Sofia] PHP Warning:  Use of undefined constant ID_my_site - assumed 'ID_my_site' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/logout.php on line 4
+[17-Dec-2022 20:32:57 Europe/Sofia] PHP Warning:  Use of undefined constant gone - assumed 'gone' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/logout.php on line 4
+[17-Dec-2022 20:32:57 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/logout.php:4) in /home/artrcfaw/BookUTravel.com/logout.php on line 4
+[17-Dec-2022 20:32:57 Europe/Sofia] PHP Warning:  Use of undefined constant Key_my_site - assumed 'Key_my_site' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/logout.php on line 5
+[17-Dec-2022 20:32:57 Europe/Sofia] PHP Warning:  Use of undefined constant gone - assumed 'gone' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/logout.php on line 5
+[17-Dec-2022 20:32:57 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/logout.php:4) in /home/artrcfaw/BookUTravel.com/logout.php on line 5
+[17-Dec-2022 20:32:57 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/logout.php:4) in /home/artrcfaw/BookUTravel.com/logout.php on line 6
+[17-Dec-2022 20:49:14 Europe/Sofia] PHP Warning:  Use of undefined constant ID_my_site - assumed 'ID_my_site' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/logout.php on line 14
+[17-Dec-2022 20:49:14 Europe/Sofia] PHP Warning:  Use of undefined constant gone - assumed 'gone' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/logout.php on line 14
+[17-Dec-2022 20:49:14 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/logout.php:1) in /home/artrcfaw/BookUTravel.com/logout.php on line 14
+[17-Dec-2022 20:49:14 Europe/Sofia] PHP Warning:  Use of undefined constant Key_my_site - assumed 'Key_my_site' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/logout.php on line 16
+[17-Dec-2022 20:49:14 Europe/Sofia] PHP Warning:  Use of undefined constant gone - assumed 'gone' (this will throw an Error in a future version of PHP) in /home/artrcfaw/BookUTravel.com/logout.php on line 16
+[17-Dec-2022 20:49:14 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/logout.php:1) in /home/artrcfaw/BookUTravel.com/logout.php on line 16
+[17-Dec-2022 20:49:14 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/artrcfaw/BookUTravel.com/logout.php:1) in /home/artrcfaw/BookUTravel.com/logout.php on line 18
+[19-Dec-2022 10:30:09 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/artrcfaw/BookUTravel.com/login.php on line 9
+[19-Dec-2022 10:31:04 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/artrcfaw/BookUTravel.com/login.php on line 9

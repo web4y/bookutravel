@@ -1,0 +1,371 @@
+
+.invite-wrap{
+	max-width:800px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.invite-wrap h1{
+	color:#000654;
+	text-align:center;
+	padding-bottom:0px;
+	margin-bottom:0px !important;
+	font-weight:400 !important;
+    font-size:36px !important;
+}
+.invite-wrap h1 span{color:#bb2025;}
+.invite-subhead{
+	text-align:center;
+	font-size:18px !important;
+	color:#000654;
+}
+.invite-subhead span{color:#bb2025; font-size:24px;font-weight:600;}
+.invite-earn-bx{padding-top:20px; position:relative; padding-bottom:20px;}
+.invite-earn-bx p{ color:#666; padding-top:20px; text-align:center; font-size:16px; line-height:18px;}
+.invite-earn-bx p span{color:#bb2025; font-weight:600;}
+.flow-connect{width:600px; height:10px;border-bottom:3px #CCCCCC dashed; position:absolute;top:70px; left:0;right:0; margin:0 auto;}
+.ie-img{ position:relative; z-index:100;}
+
+.share-con{
+	background-color:#f4f4f4;
+	padding-top:20px;
+	padding-bottom:30px;
+	position:relative;
+}
+.share-con h2{
+	color:#000654;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:600 !important;
+	font-size:18px !important;
+    margin-top: 20px !important;
+}
+.share-con h3{
+	color:#000654;
+	font-weight:600 !important;
+	font-size:16px !important;
+    margin-top: 20px !important;
+}
+.share-con .form-control{
+    display: block;
+width: 100%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.s-fb{
+	background:#fff url(../images/ecash/s-facebook.png) no-repeat left center;
+	color:#3b5998;
+	padding:10px 30px 10px 50px;
+	text-decoration:none;
+	display:inline-block;
+	border-radius:40px;
+	margin-bottom:10px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+}
+.s-fb:hover{
+	text-decoration:none;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0);
+	}
+.s-wapp{
+	background:#fff url(../images/ecash/s-whatsapp.png) no-repeat left center;
+	color:#19ae37;
+	padding:10px 30px 10px 50px;
+	text-decoration:none;
+	display:inline-block;
+	border-radius:40px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+}
+.s-wapp:hover{
+	text-decoration:none;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0);
+	}
+.invite-but{
+	background-color:#d42729;
+	color:#fff;
+	border-radius:3px;
+	padding:4px 30px !important;
+	font-size:18px;
+	margin-top:10px;
+    display:inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+width:auto !important;
+}
+.invite-but:hover{
+	color:#fff;
+	border-bottom:3px #871517 solid;
+}
+.share-con .form-control{
+	height:40px;
+}
+.refer-more{
+	position:absolute;
+	top:-20px;
+	left:0px;
+	right:0px;
+	margin:0 auto;
+	text-align:center;
+	background-color:#fff;
+	padding:10px 20px;
+	width:300px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+border-radius:15px;
+}
+.terms-bx{
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:16px;
+	text-align:center;
+}
+/*terms style*/
+.refer-terms{
+	
+}
+.rt-head{
+	background-color:#d6001a;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.home-link{
+	color:#fff;
+	text-decoration:none;
+	text-align:right;
+	display:block;
+	margin-top:15px;
+	margin-right:20px;
+	font-weight:600;
+}
+.home-link:hover{
+	color:#fff;
+	text-decoration:none;
+}
+.rt-logo{
+	margin-left:20px;
+}
+.rt-bnr{ position:relative;}
+.refer-terms h1{
+	font-size:32px !important;
+	font-weight:400 !important;
+	color:#fff;
+	text-align:center;
+}
+
+.refer-terms h2{
+	font-size:18px !important;
+	font-weight:400 !important;
+	color:#000;
+	text-transform:uppercase;
+	margin-bottom:5px !important;
+    margin-top: 20px !important;
+}
+.rt-bnr p{color:#fff; text-align:center;}
+.bnr-txt{
+	position:absolute;
+	top:180px;
+	left:0px;
+	right:0px;
+	width:100%;
+	text-align:center;
+}
+.rt-bx{
+	background-color:#FFF;
+	border:1px #ccc solid;
+	padding:15px;
+}
+.dwn-bx{
+	
+}
+.dwn-bx .form-control{
+    display: block;
+width: 100%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.dwn-bx label{font-size:12px; display:inline-block; margin-bottom:5px; font-weight:600;}
+.no-p-r{padding-right:0px;}
+.btn-submit{
+	background-color:#d6001a;
+	color:#fff;
+    display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+height:34px;
+}
+.btn-submit:hover{color:#fff; text-decoration:none;}
+.miss-call{ text-align:center; font-size:16px; color:#333; padding-top:15px;}
+.store-logo {float:left; display:inline-block; margin-right:20px; color:#000;}
+.store-logo:hover{color:#000; text-decoration:none; cursor:pointer;}
+.rt-bx ul{padding-left:20px; margin-bottom:0px;}
+.rt-bx ul li{padding-bottom:10px;}
+.terms-footer{
+	font-size:11px;
+	color:#999;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.mob-bnr{ display:none;}
+/*wallet style*/
+.wallet-bnr{
+	background-image:url(../images/ecash/wallet-bnr.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	min-height:400px;
+	
+}
+.wallet-txt-con{
+	position:relative;
+}
+.wallet-bnr-top{
+	position:absolute;
+	top:100px;
+	left:100px;
+	z-index:10;
+	height:160px;
+	color:#fff;
+	font-size:60px;
+	background:url(../images/ecash/wallet-icon.png) no-repeat left center;
+	padding-left:190px;
+	line-height:60px;
+	font-weight:600;
+}
+.wallet-bnr-top span{font-size:40px; display:block;font-weight:400; padding-top:30px;}
+.wallet-bx{
+	background-color:#FFF;
+	padding:20px;
+	margin-top:-20px;
+	min-height:220px;
+}
+.wallet-bx h3{ color:#000654; font-size:18px;}
+.about-wallet{
+	padding-top:30px;
+	padding-bottom:30px;
+	color:#000;
+	font-size:12px;
+}
+.about-wallet h4{font-size:14px; font-weight:600;}
+.how-to-use{color:#fff; background-image:url(../images/ecash/how-to-bg.jpg);background-repeat:no-repeat;background-size:cover; padding-top:40px; padding-bottom:40px;}
+.how-to-use h5{font-size:25px; text-align:center; color:#fff; margin-bottom:30px; font-weight:600;}
+.how-to-use-img{
+	margin-bottom:40px;
+}
+.book-trip{
+	text-align:center;
+	border:1px #CCCCCC dashed;
+	min-height:130px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.book-trip h6{
+	font-size:20px; text-align:center; color:#fff;font-weight:400;
+}
+.wallet-faq{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.wallet-faq .panel-title a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+}
+.wallet-faq .panel-heading{
+	background-color:#000654;
+}
+.wallet-faq h5{
+	color:#000654;
+	font-weight:600;
+}
+.wallet-faq ul{
+	padding-left:15px;
+}
+@media only screen and (max-width:767px) {
+	.flow-connect{display:none;}
+	.bnr-txt{top:33%; padding-left:15px; padding-right:15px;}
+	.home-link{margin-top:0px; margin-right:0px; font-size:12px;}
+	.desk-bnr{display:none;}
+	.mob-bnr{display:block;}
+	.dwn-bx{border-bottom:1px #999 dashed; margin-bottom:10px; padding-bottom:10px;}
+	.no-p-r{padding-right:15px;}
+	.wallet-bnr-top{
+		left:25px;
+		top:0px;
+		padding-left:0px;
+		padding-top:0px;
+		font-size:40px;
+		background:none;
+		line-height:40px;
+	}
+	.wallet-bnr-top span{padding-top:20px; font-size:30px;}
+	.wallet-bnr{
+	background-image:url(../images/ecash/wallet-bnr.jpg);
+	background-position:right;
+	}
+	.wallet-bx{
+		margin-bottom:40px;
+	}
+}
