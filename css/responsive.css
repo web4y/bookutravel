@@ -53,6 +53,15 @@
     width: 470px;
 
 }
+.form2 {
+  margin-top: 250px;
+  width: 500px;
+}
+
+.form3 {
+  margin-top: 50px;
+  width: 100%;
+}
 }
 @media only screen and (max-width: 1023px) {
   .navbar-nav {
@@ -133,6 +142,14 @@
     height: 100%;
 		  padding-bottom: 50px;
 	  }
+    .form2 {
+      margin-top: 400px;
+      width: 100%;
+  }
+  .form3 {
+    margin-top: 50px;
+    width: 100%;
+  }
 	  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: none !important;
 }
@@ -146,7 +163,11 @@
       
       padding: 10px 0 10px 10px;
 	}
-	  
+  .text-map-hotel {
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
 			
 
 }
@@ -215,6 +236,10 @@
     width: 100%;
     height: 100%;
 	  }
+    .form2 {
+      margin-top: 450px;
+      width: 100%;
+  }
 	  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: none !important;
 }
@@ -344,6 +369,7 @@
 }
   }
   @media only screen and (max-width: 374px) {
+    
     .top-deals-con {
       position: relative;
       margin-top: 0 !important;
@@ -528,6 +554,7 @@
     width: 100%;
     height: 100%;
 	  }
+    
 	.cascoon-root .cascoon-form-datepicker__popup {
     margin-top: -250px !important;
     margin-left: unset !important;
@@ -546,6 +573,13 @@
 	  .cascoon.cascoon-4044.cascoon-4044_3 {
     max-width: 100% !important;
 }
-	
+.form2 {
+  margin-top: 450px;
+  width: 100%;
+}
+.form3 {
+  margin-top: 490px;
+  width: 100%;
+}
 	}
   

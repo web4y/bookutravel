@@ -10652,6 +10652,11 @@ h1.ui-draggable-handle {
   }
 }
 @media only screen and (max-width: 1024px) {
+}
+.form3 {
+  margin-top: 50px;
+  width: 100%;
+}
   .banner-ad-con {
     position: absolute;
     width: 420px;
@@ -11453,6 +11458,10 @@ h1.ui-draggable-handle {
   }
 }
 @media only screen and (max-width: 320px) {
+  .form3 {
+    margin-top: 490px;
+    width: 100%;
+}
   .ad-phone {
     width: auto;
     margin: 0 5px 0 10px;
@@ -11863,6 +11872,10 @@ h1.ui-draggable-handle {
   .loader-bottom .lb-head-03 {
     font-size: 17px;
   }
+  .form2 {
+    margin-top: 500px;
+    width: 100%;
+}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -11890,6 +11903,10 @@ h1.ui-draggable-handle {
   .loader-bottom .lb-head-03 {
     font-size: 17px;
   }
+  .form2 {
+    margin-top: 500px;
+    width: 100%;
+}
 }
 @media only screen and (max-width : 320px) {
   .loader {
@@ -12074,6 +12091,10 @@ h1.ui-draggable-handle {
     border-color: none;
     background: #000;
   }
+  .form2 {
+    margin-top: 200px;
+    width: 600px;
+}
   .booking {
     background: #f8f6f6 url(../content/images/popup/popup-bg.png) 0 0 repeat;
     display: inline-block;
@@ -14149,8 +14170,10 @@ h1.ui-draggable-handle {
   color: #000654;
 }
 .text-map-hotel {
-  font-size: 40px;
-  padding-top: 50px;
+  font-size: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 .mewtwo-widget--7008b5d5fd37c11d50b5626c96b6313c .mewtwo-tabs-tabs_list__item.mewtwo-tabs-tabs_list__item--active {
   background-color: #D42729 !important;
@@ -14268,4 +14291,12 @@ padding: 0 0 50px 0;
 
 .cruise {
   
+}
+.form2 {
+    margin-top: 0px;
+    width: 500px;
+}
+.form3 {
+  margin-top: 20px;
+  width: 570px;
 }
