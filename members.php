@@ -226,13 +226,13 @@ h1 {
   </div>
   <div class="client-area-bg">
     <div class="container">
-      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/clia.png?v=1" alt="Clia"></a> </div>
-      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/card1.png?v=1" alt="Visa"></a> </div>
-      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/card2.png?v=1" alt="Master Card"></a> </div>
-      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/card3.png?v=1" alt="American Express"></a> </div>
-      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/card4.png?v=1" alt="Diners Club"></a> </div>
-      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/card5.png?v=1" alt="Discover"></a> </div>
-      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/bbb.png?v=1" alt="BBB Accredited Charity Logo"></a> </div>
+      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/clia.png?" alt="Clia"></a> </div>
+      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/card1.png" alt="Visa"></a> </div>
+      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/card2.png" alt="Master Card"></a> </div>
+      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/card3.png" alt="American Express"></a> </div>
+      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/card4.png" alt="Diners Club"></a> </div>
+      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/card5.png" alt="Discover"></a> </div>
+      <div class="client-item item"><a href="javascript:void(0)"><img src="content/images/bbb.png" alt="BBB Accredited Charity Logo"></a> </div>
     </div>
   </div>
   <div class="copyright"> Copyright © 2022 BookUTravel. All rights reserved <span class="hide-cop">|</span><span> Powered by Web4You Technology</span></div>

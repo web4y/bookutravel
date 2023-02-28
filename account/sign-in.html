@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 
 <html lang="en">
 <head>
@@ -87,115 +87,7 @@ h1 {
     
   </nav>
 </header>
-<script type="text/javascript">  
 
-    
-
-    $(document).ready(function () {          
-
-       
-
-        if ($("#hdn_member_fb_id").val() != null && $("#hdn_member_fb_id").val() != "") {          
-
-            $("#login_guest").hide();
-
-            $("#login_success").hide();
-
-            $("#fb_login_success").show();
-
-            $("#li_fb_login").hide();
-
-            $("#li_fb_logout").show();            
-
-            $("#spn_fb_member_name").html($("#hdn_member_name").val());
-
-            $("#spn_member_name").html("");
-
-        } else {
-
-            if ($("#hdn_member_id").val() != "") {
-
-                $("#login_guest").hide();
-
-                $("#login_success").show();
-
-                $("#fb_login_success").hide();
-
-                $("#spn_member_name").html($("#hdn_member_name").val());
-
-                $("#spn_fb_member_name").html("");
-
-            }
-
-            else {
-
-                $("#login_guest").show();
-
-                $("#login_success").hide();
-
-                $("#spn_member_name").html("");
-
-                $("#spn_fb_member_name").html("");
-
-            }
-
-        }        
-
-
-
-        if ($("#recentcount").html() == "") {
-
-            $("#li_recent_search").hide();
-
-        }          
-
-        
-
-    });
-
-   
-
-    $(window).resize(function () {
-
-        var wid = $(window).width();
-
-        if (wid < 768) {
-
-            $(".dropdown").on('click', function () {
-
-                $('.dropdown-menu', this).stop(true, true).fadeIn("fast");
-
-                $(this).toggleClass('open');
-
-            });
-
-        }
-
-        else {
-
-            $(".dropdown").hover(
-
-              function () {
-
-                  $('.dropdown-menu', this).stop(true, true).fadeIn("fast");
-
-                  $(this).toggleClass('open');
-
-              },
-
-              function () {
-
-                  $('.dropdown-menu', this).stop(true, true).fadeOut("fast");
-
-                  $(this).toggleClass('open');
-
-              });
-
-        }
-
-    });
-
-</script> 
 <script src="../bundles/autocomplete"></script>
 <link href="sign-in-css" rel="stylesheet">
 <section class="sign-bg">
@@ -309,7 +201,7 @@ h1 {
     <ul>
       <li><a href="#" id="Footer-whtsp-Mobile-clk"><span style="display:inline-block;margin-right:3px;"><img src="../content/images/whatsapp.png?v=1" alt="Whatsapp"></span><span style="display:inline-block;margin-top:2px;">WhatsApp</span></a></li>
       <li><a href="mailto:info@bookotrip.com" id="Footer-email-Mobile-clk"><i class="fa fa-envelope" aria-hidden="true"></i> Write Us</a></li>
-      <li><a href="tel:+18884377922" id="Footer-tollfree-Mobile-clk"><i class="fa fa-phone" aria-hidden="true"></i> Call Us</a></li>
+      <li><a href="tel:+359877888774" id="Footer-tollfree-Mobile-clk"><i class="fa fa-phone" aria-hidden="true"></i> Call Us</a></li>
     </ul>
     <div class="clearfix"></div>
     <div class="mob-footer-link clearfix">

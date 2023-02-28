@@ -14003,7 +14003,7 @@ h1.ui-draggable-handle {
 .view {
   background: #fff !important;
   float: left;
-  margin: 30px 10px 30px 10px !important;
+  margin-top: 30px !important;
   width: 25%;
   max-height: 380px !important;
 }
@@ -14150,7 +14150,7 @@ h1.ui-draggable-handle {
 }
 .text-map-hotel {
   font-size: 40px;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 .mewtwo-widget--7008b5d5fd37c11d50b5626c96b6313c .mewtwo-tabs-tabs_list__item.mewtwo-tabs-tabs_list__item--active {
   background-color: #D42729 !important;
@@ -14248,7 +14248,7 @@ h1.ui-draggable-handle {
 
 
 .hotel-map {
-
+padding: 0 0 50px 0;
 
 }
 

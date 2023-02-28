@@ -75,7 +75,8 @@
   .view {
     background: #fff !important;
     width: 45% !important;
-    padding-left: 50px;
+    padding-left: 20px;
+	  padding-right: 20px
   }
   .text-map {
     text-aling: center !important;
@@ -352,6 +353,7 @@
       background: #fff !important;
       width: 100% !important;
       padding-left: 20px;
+		padding-right: 20px
     }
     .text-map {
       text-aling: center !important;

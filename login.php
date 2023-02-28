@@ -7,7 +7,7 @@
 	<body>
 <?php
 session_start();
-$conn=mysqli_connect("localhost","root","","reg");
+$conn=mysqli_connect("localhost","artrcfaw_bookutravel","artravel80!","artrcfaw_bookutravel");
 
 
 if($_SERVER['REQUEST_METHOD']=="POST")
