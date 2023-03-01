@@ -14164,10 +14164,10 @@ h1.ui-draggable-handle {
   margin-top: 20px;
 }
 .text-map {
-  text-aling: center;
-  font-size: 40px;
-  padding-top: 20px;
+  font-size: 22px;
+  padding-top: 30px;
   color: #000654;
+  padding-bottom: 30px;
 }
 .text-map-hotel {
   font-size: 35px;
@@ -14188,7 +14188,7 @@ h1.ui-draggable-handle {
   margin-left: 500px !important;
 }
 .form {
-  margin-top: -600px;
+  margin-top: -650px;
   width: 600px;
 }
 /* Tab */
@@ -14298,5 +14298,22 @@ padding: 0 0 50px 0;
 }
 .form3 {
   margin-top: 20px;
+  width: 570px;
+}
+
+.maps {
+  display: inline-block;
+  width: 100%;
+}
+
+.left-map {
+  float: left;
+  padding-right: 10px;
+  width: 570px;
+}
+
+.right-map {
+  float: right;
+  padding-left: 10px;
   width: 570px;
 }
