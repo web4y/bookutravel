@@ -7025,7 +7025,7 @@ select.form-control {
 }
 .back-to-top {
   position: fixed;
-  bottom: 50%;
+  bottom: 20%;
   width: 55px;
   border-radius: 6px;
   height: 45px;
@@ -8773,7 +8773,7 @@ h1.ui-draggable-handle {
     margin: auto;
     background: #414141;
     left: 0;
-    width: 185px;
+    width: 155px;
     height: 45px;
     padding: 5px 15px;
     font-weight: 500;
@@ -8787,6 +8787,7 @@ h1.ui-draggable-handle {
     -ms-transform: rotate(-90deg) translate(-50%, 50%);
     -o-transform: rotate(-90deg) translate(-50%, 50%);
     transform: rotate(-90deg) translate(-50%, 50%);
+    font-size: 18px;
   }
   .side_left img {
     margin-right: 10px;
@@ -14188,7 +14189,7 @@ h1.ui-draggable-handle {
   margin-left: 500px !important;
 }
 .form {
-  margin-top: -650px;
+  margin-top: -670px;
   width: 600px;
 }
 /* Tab */

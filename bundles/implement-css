@@ -1,40 +1,4 @@
-﻿/* Minification failed. Returning unminified contents.
-(7144,1): run-time error CSS1019: Unexpected token, found '}'
-(7658,1): run-time error CSS1019: Unexpected token, found '@-moz-keyframes'
-(7659,3): run-time error CSS1062: Expected semicolon or closing curly-brace, found '0%'
-(7662,1): run-time error CSS1019: Unexpected token, found '@keyframes'
-(7663,3): run-time error CSS1062: Expected semicolon or closing curly-brace, found '0%'
-(8624,1): run-time error CSS1019: Unexpected token, found '}'
-(9866,1): run-time error CSS1019: Unexpected token, found '@-webkit-keyframes'
-(9867,3): run-time error CSS1062: Expected semicolon or closing curly-brace, found '0%'
-(9871,1): run-time error CSS1019: Unexpected token, found '@keyframes'
-(9872,3): run-time error CSS1062: Expected semicolon or closing curly-brace, found '0%'
-(9906,1): run-time error CSS1019: Unexpected token, found '@-webkit-keyframes'
-(9907,5): run-time error CSS1062: Expected semicolon or closing curly-brace, found '0%'
-(9911,1): run-time error CSS1019: Unexpected token, found '@-moz-keyframes'
-(9912,5): run-time error CSS1062: Expected semicolon or closing curly-brace, found '0%'
-(9916,1): run-time error CSS1019: Unexpected token, found '@keyframes'
-(9917,5): run-time error CSS1062: Expected semicolon or closing curly-brace, found '0%'
-(9922,1): run-time error CSS1019: Unexpected token, found '@-webkit-keyframes'
-(9923,5): run-time error CSS1062: Expected semicolon or closing curly-brace, found '0%'
-(9927,1): run-time error CSS1019: Unexpected token, found '@-moz-keyframes'
-(9928,5): run-time error CSS1062: Expected semicolon or closing curly-brace, found '0%'
-(9932,1): run-time error CSS1019: Unexpected token, found '@keyframes'
-(9933,5): run-time error CSS1062: Expected semicolon or closing curly-brace, found '0%'
-(10048,1543): run-time error CSS1019: Unexpected token, found '@-webkit-keyframes'
-(10048,1570): run-time error CSS1062: Expected semicolon or closing curly-brace, found '0%'
-(10048,1691): run-time error CSS1019: Unexpected token, found '@keyframes'
-(10048,1710): run-time error CSS1062: Expected semicolon or closing curly-brace, found '0%'
- */
-/*! jQuery UI - v1.11.4 - 2015-03-11
-* http://jqueryui.com
-* Includes: core.css, accordion.css, autocomplete.css, button.css, datepicker.css, dialog.css, draggable.css, menu.css, progressbar.css, resizable.css, selectable.css, selectmenu.css, slider.css, sortable.css, spinner.css, tabs.css, tooltip.css, theme.css
-* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Trebuchet%20MS%2CTahoma%2CVerdana%2CArial%2Csans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=f6a828&bgTextureHeader=gloss_wave&bgImgOpacityHeader=35&borderColorHeader=e78f08&fcHeader=ffffff&iconColorHeader=ffffff&bgColorContent=eeeeee&bgTextureContent=highlight_soft&bgImgOpacityContent=100&borderColorContent=dddddd&fcContent=333333&iconColorContent=222222&bgColorDefault=f6f6f6&bgTextureDefault=glass&bgImgOpacityDefault=100&borderColorDefault=cccccc&fcDefault=1c94c4&iconColorDefault=ef8c08&bgColorHover=fdf5ce&bgTextureHover=glass&bgImgOpacityHover=100&borderColorHover=fbcb09&fcHover=c77405&iconColorHover=ef8c08&bgColorActive=ffffff&bgTextureActive=glass&bgImgOpacityActive=65&borderColorActive=fbd850&fcActive=eb8f00&iconColorActive=ef8c08&bgColorHighlight=ffe45c&bgTextureHighlight=highlight_soft&bgImgOpacityHighlight=75&borderColorHighlight=fed22f&fcHighlight=363636&iconColorHighlight=228ef1&bgColorError=b81900&bgTextureError=diagonals_thick&bgImgOpacityError=18&borderColorError=cd0a0a&fcError=ffffff&iconColorError=ffd27a&bgColorOverlay=666666&bgTextureOverlay=diagonals_thick&bgImgOpacityOverlay=20&opacityOverlay=50&bgColorShadow=000000&bgTextureShadow=flat&bgImgOpacityShadow=10&opacityShadow=20&thicknessShadow=5px&offsetTopShadow=-5px&offsetLeftShadow=-5px&cornerRadiusShadow=5px
-* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */
-
-/* Layout helpers
-----------------------------------*/
-.ui-helper-hidden {display: none;}
+﻿.ui-helper-hidden {display: none;}
 .ui-helper-hidden-accessible {border:0;	clip:rect(0 0 0 0);	height:1px;	margin:-1px; overflow:hidden; padding:0; position:absolute;	width:1px;}
 .ui-state-disabled {cursor: default !important;}
 .ui-icon {display: block;text-indent:-99999px; overflow: hidden;background-repeat: no-repeat;}
@@ -5065,7 +5029,7 @@ select.form-control {
 
 .back-to-top {
     position: fixed;
-    bottom: 50%;
+    bottom: 20%;
     width: 55px;
     border-radius: 6px;
     height: 45px;
