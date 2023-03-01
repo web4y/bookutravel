@@ -16,6 +16,9 @@
     line-height: 1;
     width: 100%;
   }
+  .view {
+    width: 24%;
+  }
 	
 }
 @media only screen and (max-width: 1439px) {
@@ -78,10 +81,13 @@
   color: #000654;
   padding-bottom: 30px;
 }
+.view {
+  width: 24% !important;
+}
 }
 @media only screen and (max-width: 1023px) {
   .navbar-nav {
-    float: right;
+   
     margin-top: 15px;
   }
   .navbar-inverse .navbar-nav > li > a {
