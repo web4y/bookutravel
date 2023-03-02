@@ -20,11 +20,13 @@ header('Location:account/sign-in.html');
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="content/images/favicon.ico" type="image/x-icon">
 <link rel="canonical" href="https://www.bookutravel.com/" />
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="css/main.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 <script src="js/main.js"></script> 
 <script src="js/tab.js"></script>
+<link href="bundles/implement-css" rel="stylesheet"/>
+<script src="bundles/implement-jquery-js"></script>
 <style>
 .whatsapplink {
     position: fixed;
@@ -107,6 +109,10 @@ h1 {
     
   </nav>
 </header>
+<div class="side_left">
+  <img src="content/images/call-popup/live.png" alt="Live Chat"><span> Live Chat </span>
+</div>
+
 <section>
 	
   <div class="container">
@@ -145,6 +151,8 @@ h1 {
   <!-- Left and right controls --> 
 	</div>
 </section>
+<div class="btn back-to-top" style="display: block;"><span><i class="fa fa-chevron-up" aria-hidden="true"></i><br>UP</span></div>
+
 <footer id="footer">
   <div class="mob-footer">
     <ul>

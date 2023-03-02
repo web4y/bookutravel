@@ -13,12 +13,12 @@
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="content/images/favicon.ico" type="image/x-icon">
 <link rel="canonical" href="https://www.bookutravel.com/" />
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="css/main.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 <script src="js/main.js"></script>
-<link href="/bundles/implement-css" rel="stylesheet"/>
-<script src="/bundles/implement-jquery-js"></script>
+<link href="bundles/implement-css" rel="stylesheet"/>
+<script src="bundles/implement-jquery-js"></script>
 <style>
 .whatsapplink {
     position: fixed;
@@ -155,7 +155,7 @@
       <div class="vac-subhead">Romance the sun, sand, palms and blue waters with exclusive and <a href="#">affordable Beach Vacation Packages</a> .</div>
       <div class="vac-details">Soak the rays, play the sand with our perfectly crafted Beach <a href="#">Vacation Packages</a> for you and your loved ones. Our experience will soothe you to sail towards new shores. Whether it's splashing in the Caribbean or relaxing in Bali, our beach vacations turn your dreams into reality.</div>
       <div class="vac-tagline">Bright skies, brighter smiles with BookUTravel!</div>
-      <div class="vac-morebtn"><a href="#" class="btn">Know More</a></div>
+      
     </div>
   </div>
 </section>
@@ -257,143 +257,9 @@
   </div>
 </section>
 
-<section>
-  <div class="container">
-    <div class="cust-area">
-      <div class="cust-reviews"> </div>
-    </div>
-  </div>
-</section>
-<section class="about-booko">
-  <div class="container"> </div>
-</section>
-<script type="text/javascript">
-  function getInstantCall_home(id)
-  {
-      $("#instant-deals_home").show();
-  }    
-  $("#btn_close_ek").on('click', function (e) {
-      $("#instant-deals_home").hide();
-      e.preventDefault();
-  });
-  $("#btn_close_ek").click(function (event) {
-      event.stopPropagation();
-  });
-
-  function keyup_call_home() {
-      var numberRegex = /^[+-]?\d+(\.\d+)?([eE][+-]?\d+)?$/;
-      var ContactNoCallBack = "";
-      if ($("#txt_contactno_get_call_home").val() != '') {
-          ContactNoCallBack = $('#txt_contactno_get_call_home').val();
-      }
-      else {
-          $("#anc_callback_home").addClass("inactiveLink");
-          return false;
-      }
-      if (!numberRegex.test(ContactNoCallBack)) {
-          $('#txt_contactno_get_call_home').focus();
-          $('#txt_contactno_get_call_home').val('');
-          $("#anc_callback_home").addClass("inactiveLink");
-          return false;
-      }
-      if (ContactNoCallBack.length < 10) {
-          $("#anc_callback_home").addClass("inactiveLink");
-          return false;
-      }
-      $("#anc_callback_home").removeClass("inactiveLink");
-  }   
-
-  function CallBack_home() {       
-      var ContactNoCallBack = $('#txt_contactno_get_call_home').val();                 
-
-      $.ajax({
-          url: "/handlers/instant-call-back-handler.ashx",
-          contentType: "application/json; charset=utf-8",
-          dataType: "json",
-          data: { 'ContactNo': ContactNoCallBack },
-          responseType: "json",
-          success: OnCompleteCallBack_home(),
-          error: OnFailCallBack_home()
-      });
-      return false;
-  }
-  function OnCompleteCallBack_home(url) {
-      jAlert('Thanks for sharing your no. One of our Trip Expert is Calling You.', 'Success');
-      $('#txt_contactno_get_call_home').val('');
-      $('#instant-deals_home').hide();
-      $("#anc_callback_home").addClass("inactiveLink");
-  }
-  function OnFailCallBack_home(result) {
-      jAlert('Thanks for sharing your no. One of our Trip Expert is Calling You.', 'Success');
-      $('#txt_contactno_get_call_home').val('');
-      $('#instant-deals_home').hide();
-      $("#anc_callback_home").addClass("inactiveLink");
-  }
+<div class="btn back-to-top" style="display: block;"><span><i class="fa fa-chevron-up" aria-hidden="true"></i><br>UP</span></div>
 
 
-  function getInstantCall(id) {
-      $("#instant-deals").show();
-  };
-  $("#Esc-Europe-Callback-close").on('click', function (e) {
-      $("#instant-deals").hide();
-      e.preventDefault();
-  });
-  $("#Esc-Europe-Callback-close").click(function (event) {
-      event.stopPropagation();
-  });
-
-  function keyup_call()
-  {
-      var numberRegex = /^[+-]?\d+(\.\d+)?([eE][+-]?\d+)?$/;
-      var ContactNoCallBack = "";
-      if ($("#txt_contactno_get_call").val() != '') {
-          ContactNoCallBack = $('#txt_contactno_get_call').val();
-      }
-      else {
-          $("#Esc-Europe-Callback-Final-Click").addClass("inactiveLink");
-          return false;
-      }
-      if (!numberRegex.test(ContactNoCallBack)) {
-          $('#txt_contactno_get_call').focus();
-          $('#txt_contactno_get_call').val('');
-          $("#Esc-Europe-Callback-Final-Click").addClass("inactiveLink");
-          return false;
-      }
-      if (ContactNoCallBack.length < 10) {
-          $("#Esc-Europe-Callback-Final-Click").addClass("inactiveLink");
-          return false;
-      }
-      $("#Esc-Europe-Callback-Final-Click").removeClass("inactiveLink");
-  }  
-
-
-  function CallBack() {
-      var ContactNoCallBack = $('#txt_contactno_get_call').val();
-      $.ajax({
-          url: "/handlers/instant-call-back-handler.ashx",
-          contentType: "application/json; charset=utf-8",
-          dataType: "json",
-          data: { 'ContactNo': ContactNoCallBack },
-          responseType: "json",
-          success: OnCompleteCallBack(),
-          error: OnFailCallBack
-      });
-      return false;
-  }
-  function OnCompleteCallBack() {
-      jAlert('Thanks for sharing your no. One of our Trip Expert is Calling You.', 'Success');      
-      $('#txt_contactno_get_call').val('');
-      $('#instant-deals').hide();
-      $("#Esc-Europe-Callback-Final-Click").addClass("inactiveLink");
-  }
-  function OnFailCallBack(result) {
-      jAlert('Thanks for sharing your no. One of our Trip Expert is Calling You.', 'Success');
-      $('#txt_contactno_get_call').val('');
-      $('#instant-deals').hide();
-      $("#Esc-Europe-Callback-Final-Click").addClass("inactiveLink");        
-  }
-
-</script>
 <footer id="footer">
   <div class="mob-footer">
     <ul>
@@ -496,17 +362,5 @@
 
     <script src="/bundles/implement-searchfirst-js"></script>
 
-
-
-<script type="text/javascript">
-$(".plan-info-pop").show();
-$(".plan-info-pop-overlay").show();
-
-$(".pp-close").click(function () {
-    $(".plan-info-pop").hide();
-    $(".plan-info-pop-overlay").hide();
-});
-
-</script>   
 </body>
 </html>

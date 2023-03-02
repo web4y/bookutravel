@@ -5649,7 +5649,7 @@ h1 {
 		position:absolute;
 		right:6px;
 		top:6px;
-		background:url(https://www.bookotrip.com/content/images/phpop-close.png?v=1) no-repeat center center;
+		background:url(../content/images/phpop-close.png?v=1) no-repeat center center;
 		cursor:pointer;
 	}
 @media only screen and (max-width: 990px) {
@@ -9471,7 +9471,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.45);
         padding-top:344px;
     }
     /*.mob-home-bnr-bg{
-        background: #fff url(https://www.bookotrip.com/content/images/banner/flight-upto-40-mob.jpg?v=1) no-repeat;
+        background: #fff url(../content/images/banner/flight-upto-40-mob.jpg?v=1) no-repeat;
     }*/
     .mob-home-bnr-bg{
         background: #fff url(../content/images/banner/BookOtrip.jpg) no-repeat;

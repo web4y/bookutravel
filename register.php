@@ -1,7 +1,7 @@
 
               <?php
 
-              $conn = mysqli_connect( "localhost", "artrcfaw_bookutravel", "artravel80!", "artrcfaw_bookutravel" );
+              $conn = mysqli_connect( "localhost", "root", "", "register" );
               if ( $_SERVER[ 'REQUEST_METHOD' ] == "POST" ) {
 
 
@@ -9,13 +9,6 @@
                 $email = $_POST[ 'email' ];
                 $username = $_POST[ 'username' ];
                 $password = $_POST[ 'password' ];
-                $password1 = $_POST['password1'];
-                if($password!=$password1)
-                {
-                  header("Location:")
-
-
-                }
                 $number = $_POST[ 'number' ];
                 $password=hash('ripemd160' ,$password);
                 
