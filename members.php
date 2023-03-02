@@ -14,7 +14,7 @@ header('Location:account/sign-in.html');
 <title>BookUTravel</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
 <link rel="shortcut icon" href="https://bookutravel.com/content/images/favicon.ico" type="image/x-icon">
 <link rel="canonical" href="index.htm">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
