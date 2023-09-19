@@ -1,43 +1,22 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-	<title>Login</title>
-	</head>
-	<body>
 <?php
-session_start();
-$conn=mysqli_connect("localhost","root","","register");
+require_once 'db/db_connection.php';
+$response = '';
+$username = '';
+$password = '';
+if (isset($_POST['username'], $_POST['password'])) {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
 
-if($_SERVER['REQUEST_METHOD']=="POST")
-{
+    $userId = verifyCredentials($db, $username, $password);
 
-    
-  $username=$_POST['username'];
-  $password=$_POST['password'];
-  $password=hash('ripemd160' ,$password);
-  $sql="Select * from users Where Username='$username' and Password='$password'";
-  $result=mysqli_query($conn,$sql);
-    
-  while($row=$result->fetch_assoc())
-    {
-        echo $row["Username"]."<br>".$row["Password"]."<br>";
+    if ($userId != -1) {
+        $authString = issueAuthenticationString($db, $userId);
+        header("Location: categories.php?authId=$authString");
+        exit;
+    } else {
+        $response = "Invalid username or password";
     }
-  $count=mysqli_num_rows($result);
-  if($count==1)
-  {
-      $_SESSION['username']=$username;
-      $_SESSION['password']=$password;
-     header("Location:members.php");
-  }
-  else
-  {
-      echo "Wrong username or password";
-  }
-  
-    
 }
-?>
-	</body>
-</html>
+
+require_once 'login_form.php';

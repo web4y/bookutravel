@@ -1,3 +1,16 @@
+<?php 
+
+mail($to, $subject, $message [,mixed $additional_headers [,string $additional_parameters ]]);
+
+$to ='alexandar@rohov.bg';
+$subject='Test message from our system.';
+$message='This is a test message from our PHP system...';
+$message
+
+
+$to='alexandar@rohov.bg';
+$subject='Birthday Reminder';
+$message='
 <html>
 <head>
 <title>Birth day Reminder</title>
@@ -16,4 +29,5 @@
 </tr>
 </table>
 </body>
-</html>'
+</html>';
+

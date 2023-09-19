@@ -1,31 +1,9 @@
-
 <?php
-sesion_start();
-$past = time() - 100;
+require_once 'common.php';
 
-//това унищожава бисквитката
+require_once 'db/user_queries.php';
 
-setcookie(ID_my_site, gone, $past);
+logout($db, $authId);
 
-setcookie(Key_my_site, gone, $past);
-
-header("Location: logout.html");
-
-?><!doctype html>
-
-<html lang="en">
-<head>
-	<title>Login</title>
-	</head>
-	<body>
-
-
-<?php
-if($_SERVER['REQUEST_METOD']=='POST')
-
-
-{
-	$_SESSION
-}
-?>
-	
+header("Location: login.php");
+exit;

@@ -1,0 +1,7 @@
+{
+    "remote.SSH.defaultForwardedPorts": [],
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "cSpell.words": [
+        "bookudb"
+    ]
+}
